@@ -44,14 +44,18 @@ header#hd{padding: 15px 0;}
     background: yellow;
 }
 #gnb .d2{
-  display: none;
-  background-color: black; top:calc(100% + 15px); left: 15px; padding: 10px 15px; width: 100px;}
+  background-color: black; top:calc(100% + 15px); left: 15px; width: 100px;
+  padding: 0 15px;
+  height: 0px; transition: 0.5s; overflow: hidden;
+
+}
 #gnb .d2 a{font-size: 0.9em; line-height: 1.5; color: white;}
 
 #gnb li:nth-child(1) .d2{left: 30px;}
 #gnb li:nth-child(4) .d2{width: 70px;}
 
 #gnb > li:hover .d2{display: block; }
+#gnb > li:hover .d2{display: block;  height: 120px;}
 
 
 
