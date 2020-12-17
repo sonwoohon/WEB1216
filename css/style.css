@@ -33,7 +33,9 @@ img{border: none;}
 .disN{display: none;}
 .disIB{display: inline-block;}
 
-/*애니메이션 불가 display*/
+/*애니메이션 불가 display 값 auto인 것-->@keyframes도 안된다는 뜻 {
+
+}*/
 
 /*레이아웃*/
 header#hd{padding: 15px 0;}
@@ -54,6 +56,7 @@ header#hd{padding: 15px 0;}
 }
 #gnb .d2 a{font-size: 0.9em; line-height: 1.5; color: white;}
 #gnb .d2:hover{content: ""; display: block; height: 15px}
+
 
 #gnb li:nth-child(1) .d2{left: 30px;}
 #gnb li:nth-child(4) .d2{width: 70px;}
